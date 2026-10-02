@@ -10,7 +10,7 @@
     },
     "description": {
       "translate": "advancements.extra_advancements.travel.jacobs_ladder.description",
-      "fallback": "Rise 100 blocks without landing, gliding or teleporting"
+      "fallback": "Rise 100 blocks without landing, touching water, climbing, flying or teleporting"
     },
     "frame": "challenge"
   },
