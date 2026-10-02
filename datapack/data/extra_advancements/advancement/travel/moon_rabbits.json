@@ -1,0 +1,39 @@
+{
+  "parent": "extra_advancements:travel/export_business",
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_foot"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.travel.moon_rabbits.title",
+      "fallback": "Moon Rabbits"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.travel.moon_rabbits.description",
+      "fallback": "Breed two Rabbits in the End"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "breed_rabbit_end": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:rabbit",
+              "location": {
+                "dimension": "minecraft:the_end"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

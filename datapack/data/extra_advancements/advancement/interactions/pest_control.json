@@ -1,0 +1,25 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:infested_stone"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.interactions.pest_control.title",
+      "fallback": "Pest Control"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.interactions.pest_control.description",
+      "fallback": "Break an Infested Block with a Silk Touch tool"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

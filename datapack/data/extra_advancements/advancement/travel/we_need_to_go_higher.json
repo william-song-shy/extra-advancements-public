@@ -1,0 +1,43 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:bedrock"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.travel.we_need_to_go_higher.title",
+      "fallback": "We Need to Go ... Higher?"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.travel.we_need_to_go_higher.description",
+      "fallback": "Reach Y 128 above the Nether's bedrock ceiling"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "above_nether_ceiling": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_nether",
+                "position": {
+                  "y": {
+                    "min": 128
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

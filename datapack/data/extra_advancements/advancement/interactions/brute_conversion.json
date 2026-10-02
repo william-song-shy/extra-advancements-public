@@ -1,0 +1,25 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_axe"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.interactions.brute_conversion.title",
+      "fallback": "Brute Conversion"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.interactions.brute_conversion.description",
+      "fallback": "Zombify a Piglin Brute in the Overworld"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

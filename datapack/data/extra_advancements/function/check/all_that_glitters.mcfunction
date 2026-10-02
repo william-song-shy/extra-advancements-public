@@ -1,0 +1,20 @@
+# 挖掘统计 → 逐条判据发放（石头与深板岩版本天然分开计数）
+execute as @a[scores={ea.m0=1..}] run advancement grant @s only extra_advancements:exploration/all_that_glitters mine_coal_ore
+execute as @a[scores={ea.m1=1..}] run advancement grant @s only extra_advancements:exploration/all_that_glitters mine_deepslate_coal_ore
+execute as @a[scores={ea.m2=1..}] run advancement grant @s only extra_advancements:exploration/all_that_glitters mine_iron_ore
+execute as @a[scores={ea.m3=1..}] run advancement grant @s only extra_advancements:exploration/all_that_glitters mine_deepslate_iron_ore
+execute as @a[scores={ea.m4=1..}] run advancement grant @s only extra_advancements:exploration/all_that_glitters mine_copper_ore
+execute as @a[scores={ea.m5=1..}] run advancement grant @s only extra_advancements:exploration/all_that_glitters mine_deepslate_copper_ore
+execute as @a[scores={ea.m6=1..}] run advancement grant @s only extra_advancements:exploration/all_that_glitters mine_gold_ore
+execute as @a[scores={ea.m7=1..}] run advancement grant @s only extra_advancements:exploration/all_that_glitters mine_deepslate_gold_ore
+execute as @a[scores={ea.m8=1..}] run advancement grant @s only extra_advancements:exploration/all_that_glitters mine_redstone_ore
+execute as @a[scores={ea.m9=1..}] run advancement grant @s only extra_advancements:exploration/all_that_glitters mine_deepslate_redstone_ore
+execute as @a[scores={ea.m10=1..}] run advancement grant @s only extra_advancements:exploration/all_that_glitters mine_lapis_ore
+execute as @a[scores={ea.m11=1..}] run advancement grant @s only extra_advancements:exploration/all_that_glitters mine_deepslate_lapis_ore
+execute as @a[scores={ea.m12=1..}] run advancement grant @s only extra_advancements:exploration/all_that_glitters mine_diamond_ore
+execute as @a[scores={ea.m13=1..}] run advancement grant @s only extra_advancements:exploration/all_that_glitters mine_deepslate_diamond_ore
+execute as @a[scores={ea.m14=1..}] run advancement grant @s only extra_advancements:exploration/all_that_glitters mine_emerald_ore
+execute as @a[scores={ea.m15=1..}] run advancement grant @s only extra_advancements:exploration/all_that_glitters mine_deepslate_emerald_ore
+execute as @a[scores={ea.m16=1..}] run advancement grant @s only extra_advancements:exploration/all_that_glitters mine_nether_gold_ore
+execute as @a[scores={ea.m17=1..}] run advancement grant @s only extra_advancements:exploration/all_that_glitters mine_nether_quartz_ore
+execute as @a[scores={ea.m18=1..}] run advancement grant @s only extra_advancements:exploration/all_that_glitters mine_ancient_debris

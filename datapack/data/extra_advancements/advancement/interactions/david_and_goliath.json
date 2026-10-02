@@ -1,0 +1,25 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_pearl"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.interactions.david_and_goliath.title",
+      "fallback": "David and Goliath"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.interactions.david_and_goliath.description",
+      "fallback": "Witness the fall of the Enderman"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_beef"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.exploration.dinner_rush.title",
+      "fallback": "Dinner Rush"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.exploration.dinner_rush.description",
+      "fallback": "Go from starving to completely stuffed in five seconds"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

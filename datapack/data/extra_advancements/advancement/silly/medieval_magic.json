@@ -1,0 +1,25 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_chestplate"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.silly.medieval_magic.title",
+      "fallback": "Medieval Magic"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.silly.medieval_magic.description",
+      "fallback": "Wear a full set of enchanted chainmail armour"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

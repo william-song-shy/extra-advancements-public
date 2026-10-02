@@ -1,0 +1,25 @@
+{
+  "parent": "extra_advancements:travel/foreign_exchange_student",
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_shell"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.travel.export_business.title",
+      "fallback": "Export Business"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.travel.export_business.description",
+      "fallback": "Duplicate a Shulker in the Nether"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

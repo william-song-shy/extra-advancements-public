@@ -1,0 +1,47 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:carved_pumpkin"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.silly.till_death_do_us_part.title",
+      "fallback": "Till Death Do Us Part"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.silly.till_death_do_us_part.description",
+      "fallback": "Kill a mob wearing a Carved Pumpkin enchanted with the Curse of Binding"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "kill_cursed_pumpkin_wearer": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": "minecraft:carved_pumpkin",
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:binding_curse"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:bell"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.exploration.trading_wanderer.title",
+      "fallback": "Trading Wanderer"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.exploration.trading_wanderer.description",
+      "fallback": "Trade all over the world - no llamas required"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "trade_desert": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{VillagerData:{type:\"minecraft:desert\"}}"
+            }
+          }
+        ]
+      }
+    },
+    "trade_jungle": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{VillagerData:{type:\"minecraft:jungle\"}}"
+            }
+          }
+        ]
+      }
+    },
+    "trade_plains": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{VillagerData:{type:\"minecraft:plains\"}}"
+            }
+          }
+        ]
+      }
+    },
+    "trade_savanna": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{VillagerData:{type:\"minecraft:savanna\"}}"
+            }
+          }
+        ]
+      }
+    },
+    "trade_snow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{VillagerData:{type:\"minecraft:snow\"}}"
+            }
+          }
+        ]
+      }
+    },
+    "trade_swamp": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{VillagerData:{type:\"minecraft:swamp\"}}"
+            }
+          }
+        ]
+      }
+    },
+    "trade_taiga": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{VillagerData:{type:\"minecraft:taiga\"}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

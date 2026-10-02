@@ -1,0 +1,82 @@
+{
+  "parent": "extra_advancements:interactions/mind_blown",
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.exploration.heads_up.title",
+      "fallback": "Heads Up!"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.exploration.heads_up.description",
+      "fallback": "Obtain every Survival-obtainable mob head"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "obtain_skeleton_skull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:skeleton_skull"
+          }
+        ]
+      }
+    },
+    "obtain_wither_skeleton_skull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wither_skeleton_skull"
+          }
+        ]
+      }
+    },
+    "obtain_zombie_head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:zombie_head"
+          }
+        ]
+      }
+    },
+    "obtain_creeper_head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:creeper_head"
+          }
+        ]
+      }
+    },
+    "obtain_piglin_head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:piglin_head"
+          }
+        ]
+      }
+    },
+    "obtain_dragon_head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dragon_head"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

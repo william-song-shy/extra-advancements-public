@@ -1,0 +1,25 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:wind_charge"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.travel.jacobs_ladder.title",
+      "fallback": "Jacob's Ladder"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.travel.jacobs_ladder.description",
+      "fallback": "Rise 100 blocks without landing, gliding or teleporting"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 300
+  }
+}

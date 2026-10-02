@@ -1,0 +1,25 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:bone"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.interactions.bone_convention.title",
+      "fallback": "Bone Convention"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.interactions.bone_convention.description",
+      "fallback": "Gather every Skeleton variant"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

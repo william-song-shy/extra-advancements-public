@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "consume_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:suspicious_stew"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "extra_advancements:interactions/stew_check"
+  }
+}

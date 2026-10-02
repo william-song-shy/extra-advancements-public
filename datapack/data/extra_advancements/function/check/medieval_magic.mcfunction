@@ -1,0 +1,2 @@
+# 四件锁链甲同时在身上，且每件至少有一项附魔。
+execute as @a if items entity @s armor.head minecraft:chainmail_helmet[minecraft:enchantments] if items entity @s armor.chest minecraft:chainmail_chestplate[minecraft:enchantments] if items entity @s armor.legs minecraft:chainmail_leggings[minecraft:enchantments] if items entity @s armor.feet minecraft:chainmail_boots[minecraft:enchantments] run advancement grant @s only extra_advancements:silly/medieval_magic

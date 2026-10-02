@@ -1,0 +1,26 @@
+{
+  "parent": "extra_advancements:travel/five_miles",
+  "display": {
+    "icon": {
+      "id": "minecraft:end_stone"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.travel.worlds_end.title",
+      "fallback": "World's End?"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.travel.worlds_end.description",
+      "fallback": "A glimpse of something greater"
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 300
+  }
+}

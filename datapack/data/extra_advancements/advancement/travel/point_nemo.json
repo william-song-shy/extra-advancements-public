@@ -1,0 +1,47 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:tropical_fish_bucket"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.travel.point_nemo.title",
+      "fallback": "Point Nemo"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.travel.point_nemo.description",
+      "fallback": "Be very, very far from land"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "far_from_land": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:tropical_fish_bucket"
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "#minecraft:is_ocean",
+                "can_see_sky": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

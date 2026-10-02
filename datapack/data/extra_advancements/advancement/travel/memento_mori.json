@@ -1,0 +1,25 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:recovery_compass"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.travel.memento_mori.title",
+      "fallback": "Memento Mori"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.travel.memento_mori.description",
+      "fallback": "Remember where you fell - or where you first arrived"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

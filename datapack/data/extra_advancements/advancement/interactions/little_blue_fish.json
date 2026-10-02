@@ -1,0 +1,45 @@
+{
+  "parent": "extra_advancements:interactions/through_the_looking_glass",
+  "display": {
+    "icon": {
+      "id": "minecraft:axolotl_bucket"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.interactions.little_blue_fish.title",
+      "fallback": "Little Blue Fish!"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.interactions.little_blue_fish.description",
+      "fallback": "Look at a blue Axolotl through a Spyglass"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "look_at_blue_axolotl": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:axolotl",
+                  "nbt": "{Variant:4}"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

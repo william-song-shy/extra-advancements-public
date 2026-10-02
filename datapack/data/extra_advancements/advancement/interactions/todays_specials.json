@@ -1,0 +1,52 @@
+{
+  "parent": "extra_advancements:interactions/chefs_special",
+  "display": {
+    "icon": {
+      "id": "minecraft:bowl"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.interactions.todays_specials.title",
+      "fallback": "Today's Specials"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.interactions.todays_specials.description",
+      "fallback": "Sample everything on the Brown Mooshroom's menu"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "effect_fire_resistance": {
+      "trigger": "minecraft:impossible"
+    },
+    "effect_blindness": {
+      "trigger": "minecraft:impossible"
+    },
+    "effect_saturation": {
+      "trigger": "minecraft:impossible"
+    },
+    "effect_nausea": {
+      "trigger": "minecraft:impossible"
+    },
+    "effect_jump_boost": {
+      "trigger": "minecraft:impossible"
+    },
+    "effect_poison": {
+      "trigger": "minecraft:impossible"
+    },
+    "effect_regeneration": {
+      "trigger": "minecraft:impossible"
+    },
+    "effect_night_vision": {
+      "trigger": "minecraft:impossible"
+    },
+    "effect_weakness": {
+      "trigger": "minecraft:impossible"
+    },
+    "effect_wither": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

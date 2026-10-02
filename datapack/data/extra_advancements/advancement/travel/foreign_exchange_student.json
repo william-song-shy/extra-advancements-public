@@ -1,0 +1,39 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus_on_a_stick"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.travel.foreign_exchange_student.title",
+      "fallback": "Foreign Exchange Student"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.travel.foreign_exchange_student.description",
+      "fallback": "Breed two Striders in the Overworld"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "breed_strider_overworld": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:strider",
+              "location": {
+                "dimension": "minecraft:overworld"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.interactions.what_does_the_fox_say.title",
+      "fallback": "What Does the Fox Say? Not Today."
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.interactions.what_does_the_fox_say.description",
+      "fallback": "Have a Fox use a Totem of Undying"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

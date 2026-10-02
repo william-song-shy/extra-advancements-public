@@ -1,0 +1,252 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:brush"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.exploration.piecing_the_past.title",
+      "fallback": "Piecing the Past"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.exploration.piecing_the_past.description",
+      "fallback": "Obtain every pottery sherd"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "obtain_angler_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:angler_pottery_sherd"
+          }
+        ]
+      }
+    },
+    "obtain_archer_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:archer_pottery_sherd"
+          }
+        ]
+      }
+    },
+    "obtain_arms_up_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:arms_up_pottery_sherd"
+          }
+        ]
+      }
+    },
+    "obtain_blade_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:blade_pottery_sherd"
+          }
+        ]
+      }
+    },
+    "obtain_brewer_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brewer_pottery_sherd"
+          }
+        ]
+      }
+    },
+    "obtain_burn_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:burn_pottery_sherd"
+          }
+        ]
+      }
+    },
+    "obtain_danger_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:danger_pottery_sherd"
+          }
+        ]
+      }
+    },
+    "obtain_explorer_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:explorer_pottery_sherd"
+          }
+        ]
+      }
+    },
+    "obtain_flow_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:flow_pottery_sherd"
+          }
+        ]
+      }
+    },
+    "obtain_friend_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:friend_pottery_sherd"
+          }
+        ]
+      }
+    },
+    "obtain_guster_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:guster_pottery_sherd"
+          }
+        ]
+      }
+    },
+    "obtain_heart_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:heart_pottery_sherd"
+          }
+        ]
+      }
+    },
+    "obtain_heartbreak_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:heartbreak_pottery_sherd"
+          }
+        ]
+      }
+    },
+    "obtain_howl_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:howl_pottery_sherd"
+          }
+        ]
+      }
+    },
+    "obtain_miner_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:miner_pottery_sherd"
+          }
+        ]
+      }
+    },
+    "obtain_mourner_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mourner_pottery_sherd"
+          }
+        ]
+      }
+    },
+    "obtain_plenty_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:plenty_pottery_sherd"
+          }
+        ]
+      }
+    },
+    "obtain_prize_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:prize_pottery_sherd"
+          }
+        ]
+      }
+    },
+    "obtain_scrape_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:scrape_pottery_sherd"
+          }
+        ]
+      }
+    },
+    "obtain_sheaf_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sheaf_pottery_sherd"
+          }
+        ]
+      }
+    },
+    "obtain_shelter_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shelter_pottery_sherd"
+          }
+        ]
+      }
+    },
+    "obtain_skull_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:skull_pottery_sherd"
+          }
+        ]
+      }
+    },
+    "obtain_snort_pottery_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:snort_pottery_sherd"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

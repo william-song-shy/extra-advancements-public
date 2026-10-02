@@ -1,0 +1,25 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:powder_snow_bucket"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.interactions.hell_freezes_over.title",
+      "fallback": "Hell Freezes Over"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.interactions.hell_freezes_over.description",
+      "fallback": "Cool a Blaze down with Powder Snow"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

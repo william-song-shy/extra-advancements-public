@@ -1,0 +1,86 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:rotten_flesh"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.travel.dead_horse_society.title",
+      "fallback": "Dead Horse Society"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.travel.dead_horse_society.description",
+      "fallback": "Ride every undead mount. Carpe diem!"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "ride_skeleton_horse": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:skeleton_horse"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ride_zombie_horse": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:zombie_horse"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ride_camel_husk": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:camel_husk"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ride_zombie_nautilus": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:zombie_nautilus"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

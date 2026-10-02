@@ -1,0 +1,25 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.silly.haute_couture.title",
+      "fallback": "Haute Couture"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.silly.haute_couture.description",
+      "fallback": "Wear a full set of leather armour that is both dyed and trimmed"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

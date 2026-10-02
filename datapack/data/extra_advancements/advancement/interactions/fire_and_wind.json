@@ -1,0 +1,25 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:lead"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.interactions.fire_and_wind.title",
+      "fallback": "Fire and Wind"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.interactions.fire_and_wind.description",
+      "fallback": "Lead a boat that is carrying a Blaze and a Breeze"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "parent": "extra_advancements:travel/dead_horse_society",
+  "display": {
+    "icon": {
+      "id": "minecraft:saddle"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.travel.public_transportation.title",
+      "fallback": "Public Transportation"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.travel.public_transportation.description",
+      "fallback": "Ride every rideable mob"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "ride_pig": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:pig"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ride_horse": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:horse"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ride_donkey": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:donkey"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ride_mule": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:mule"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ride_llama": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:llama"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ride_trader_llama": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:trader_llama"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ride_skeleton_horse": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:skeleton_horse"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ride_zombie_horse": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:zombie_horse"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ride_camel": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:camel"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ride_camel_husk": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:camel_husk"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ride_strider": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:strider"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ride_nautilus": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:nautilus"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ride_zombie_nautilus": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:zombie_nautilus"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

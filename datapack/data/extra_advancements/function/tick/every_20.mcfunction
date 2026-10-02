@@ -1,0 +1,5 @@
+function extra_advancements:check/all_that_glitters
+function extra_advancements:check/five_miles
+function extra_advancements:check/worlds_end
+function extra_advancements:check/memento_mori
+function extra_advancements:check/global_warming

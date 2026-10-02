@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.extraadvancements.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "LivingEntityTotemMixin",
+    "ShulkerDuplicateMixin",
+    "EntityTeleportMixin",
+    "NoteBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

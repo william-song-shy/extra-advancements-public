@@ -1,0 +1,54 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:ominous_bottle"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.travel.interdimensional_hero.title",
+      "fallback": "Interdimensional Hero"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.travel.interdimensional_hero.description",
+      "fallback": "Win a raid in the Overworld and one in the End"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "raid_in_overworld": {
+      "trigger": "minecraft:hero_of_the_village",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:overworld"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "raid_in_the_end": {
+      "trigger": "minecraft:hero_of_the_village",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_end"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 150
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "description": {
+      "translate": "resourcePack.extra_advancements.description",
+      "fallback": "Extra Advancements - Simplified Chinese localization"
+    },
+    "min_format": [
+      84,
+      0
+    ],
+    "max_format": 84
+  }
+}

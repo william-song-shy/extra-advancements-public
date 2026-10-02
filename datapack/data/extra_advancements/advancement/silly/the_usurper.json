@@ -1,0 +1,32 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:waxed_weathered_copper_golem_statue"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.silly.the_usurper.title",
+      "fallback": "The Usurper"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.silly.the_usurper.description",
+      "fallback": "Obtain a Waxed Weathered Copper Golem Statue. The longest name on the throne - for now"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "obtain_waxed_weathered_copper_golem_statue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:waxed_weathered_copper_golem_statue"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

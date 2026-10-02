@@ -1,0 +1,40 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:suspicious_stew"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.interactions.chefs_special.title",
+      "fallback": "Chef's Special"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.interactions.chefs_special.description",
+      "fallback": "Milk Suspicious Stew from a Brown Mooshroom"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "milk_brown_mooshroom": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:bowl"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:mooshroom",
+              "nbt": "{Type:\"brown\"}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

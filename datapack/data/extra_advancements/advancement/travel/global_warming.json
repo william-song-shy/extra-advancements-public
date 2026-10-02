@@ -1,0 +1,25 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:snowball"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.travel.global_warming.title",
+      "fallback": "Global Warming"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.travel.global_warming.description",
+      "fallback": "Keep a Snow Golem alive in the Nether for one minute"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_catalyst"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.interactions.from_whence_you_came.title",
+      "fallback": "From Whence You Came"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.interactions.from_whence_you_came.description",
+      "fallback": "Kill a Warden within 8 blocks of a Sculk Catalyst"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "kill_warden": {
+      "trigger": "minecraft:kill_mob_near_sculk_catalyst",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:warden"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

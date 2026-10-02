@@ -1,0 +1,5 @@
+function extra_advancements:check/haute_couture
+function extra_advancements:check/medieval_magic
+function extra_advancements:check/bone_convention
+function extra_advancements:check/fox_totem
+function extra_advancements:check/fire_and_wind

@@ -1,0 +1,79 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.exploration.all_that_glitters.title",
+      "fallback": "All That Glitters"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.exploration.all_that_glitters.description",
+      "fallback": "Mine every ore block"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "mine_coal_ore": {
+      "trigger": "minecraft:impossible"
+    },
+    "mine_deepslate_coal_ore": {
+      "trigger": "minecraft:impossible"
+    },
+    "mine_iron_ore": {
+      "trigger": "minecraft:impossible"
+    },
+    "mine_deepslate_iron_ore": {
+      "trigger": "minecraft:impossible"
+    },
+    "mine_copper_ore": {
+      "trigger": "minecraft:impossible"
+    },
+    "mine_deepslate_copper_ore": {
+      "trigger": "minecraft:impossible"
+    },
+    "mine_gold_ore": {
+      "trigger": "minecraft:impossible"
+    },
+    "mine_deepslate_gold_ore": {
+      "trigger": "minecraft:impossible"
+    },
+    "mine_redstone_ore": {
+      "trigger": "minecraft:impossible"
+    },
+    "mine_deepslate_redstone_ore": {
+      "trigger": "minecraft:impossible"
+    },
+    "mine_lapis_ore": {
+      "trigger": "minecraft:impossible"
+    },
+    "mine_deepslate_lapis_ore": {
+      "trigger": "minecraft:impossible"
+    },
+    "mine_diamond_ore": {
+      "trigger": "minecraft:impossible"
+    },
+    "mine_deepslate_diamond_ore": {
+      "trigger": "minecraft:impossible"
+    },
+    "mine_emerald_ore": {
+      "trigger": "minecraft:impossible"
+    },
+    "mine_deepslate_emerald_ore": {
+      "trigger": "minecraft:impossible"
+    },
+    "mine_nether_gold_ore": {
+      "trigger": "minecraft:impossible"
+    },
+    "mine_nether_quartz_ore": {
+      "trigger": "minecraft:impossible"
+    },
+    "mine_ancient_debris": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

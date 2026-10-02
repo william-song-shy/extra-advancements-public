@@ -1,0 +1,3 @@
+function extra_advancements:check/dinner_rush
+function extra_advancements:check/jacobs_ladder
+function extra_advancements:check/pest_control

@@ -1,0 +1,41 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_dandelion"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.interactions.forever_young.title",
+      "fallback": "Forever Young"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.interactions.forever_young.description",
+      "fallback": "Stop a baby mob from growing up"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "age_lock_baby": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_baby": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

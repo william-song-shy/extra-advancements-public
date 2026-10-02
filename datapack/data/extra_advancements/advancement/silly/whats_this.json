@@ -1,0 +1,32 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:diorite"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.silly.whats_this.title",
+      "fallback": "What's This?"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.silly.whats_this.description",
+      "fallback": "Obtain a piece of Diorite"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "obtain_diorite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diorite"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  }
+}

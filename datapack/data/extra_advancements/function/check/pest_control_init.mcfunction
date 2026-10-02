@@ -1,0 +1,9 @@
+scoreboard players add @s ea.i0 0
+scoreboard players add @s ea.i1 0
+scoreboard players add @s ea.i2 0
+scoreboard players add @s ea.i3 0
+scoreboard players add @s ea.i4 0
+scoreboard players add @s ea.i5 0
+scoreboard players add @s ea.i6 0
+scoreboard players add @s ea.inow 0
+scoreboard players add @s ea.iprev 0

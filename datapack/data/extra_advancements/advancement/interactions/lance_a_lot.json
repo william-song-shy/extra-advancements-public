@@ -1,0 +1,40 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_spear"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.interactions.lance_a_lot.title",
+      "fallback": "Lance-a-Lot"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.interactions.lance_a_lot.description",
+      "fallback": "Deal 50 hearts of damage in a single charge using the Spear"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "spear_charge_100": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 100
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "extra_advancements:spear",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 150
+  }
+}

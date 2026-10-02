@@ -1,0 +1,25 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.travel.five_miles.title",
+      "fallback": "5 Miles"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.travel.five_miles.description",
+      "fallback": "Get more than 5 miles from the origin, in any dimension"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "parent": "extra_advancements:silly/the_usurper",
+  "display": {
+    "icon": {
+      "id": "minecraft:waxed_weathered_cut_copper_stairs"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.silly.long_live_the_wang.title",
+      "fallback": "Long Live the Wang"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.silly.long_live_the_wang.description",
+      "fallback": "Obtain a Waxed Cut Copper Stairs in some state of oxidation"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "obtain_waxed_exposed_cut_copper_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:waxed_exposed_cut_copper_stairs"
+          }
+        ]
+      }
+    },
+    "obtain_waxed_weathered_cut_copper_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:waxed_weathered_cut_copper_stairs"
+          }
+        ]
+      }
+    },
+    "obtain_waxed_oxidized_cut_copper_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:waxed_oxidized_cut_copper_stairs"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_waxed_exposed_cut_copper_stairs",
+      "obtain_waxed_weathered_cut_copper_stairs",
+      "obtain_waxed_oxidized_cut_copper_stairs"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  }
+}

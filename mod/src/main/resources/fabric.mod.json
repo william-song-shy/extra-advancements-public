@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "extra_advancements",
+  "version": "${version}",
+  "name": "Extra Advancements Companion",
+  "description": "Extra Advancements 数据包的配套模组：补上原版触发器判定不了的那几个事件，只读监听、不改游戏状态，唯一的写操作是发放进度。",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.extraadvancements.ExtraAdvancements"
+    ]
+  },
+  "mixins": [
+    "extra_advancements.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

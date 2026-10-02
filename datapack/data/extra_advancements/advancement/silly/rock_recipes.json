@@ -1,0 +1,40 @@
+{
+  "parent": "extra_advancements:silly/whats_this",
+  "display": {
+    "icon": {
+      "id": "minecraft:crafting_table"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.silly.rock_recipes.title",
+      "fallback": "Rock Recipes"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.silly.rock_recipes.description",
+      "fallback": "Craft Diorite, Andesite and Granite"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "craft_granite": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:granite"
+      }
+    },
+    "craft_diorite": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diorite"
+      }
+    },
+    "craft_andesite": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:andesite"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

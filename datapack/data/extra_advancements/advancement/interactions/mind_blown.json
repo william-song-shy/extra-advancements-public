@@ -1,0 +1,32 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:creeper_head"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.interactions.mind_blown.title",
+      "fallback": "Mind Blown"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.interactions.mind_blown.description",
+      "fallback": "Blow a Creeper's Mind with the force of Nature"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "obtain_creeper_head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:creeper_head"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

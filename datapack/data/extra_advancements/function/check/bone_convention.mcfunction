@@ -1,0 +1,2 @@
+# 16 格内同时存在五种骷髅变体
+execute as @a at @s if entity @e[type=minecraft:skeleton,distance=..16,limit=1] if entity @e[type=minecraft:stray,distance=..16,limit=1] if entity @e[type=minecraft:bogged,distance=..16,limit=1] if entity @e[type=minecraft:parched,distance=..16,limit=1] if entity @e[type=minecraft:wither_skeleton,distance=..16,limit=1] run advancement grant @s only extra_advancements:interactions/bone_convention
