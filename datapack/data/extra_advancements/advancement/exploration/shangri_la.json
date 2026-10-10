@@ -1,0 +1,39 @@
+{
+  "parent": "extra_advancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:cherry_sapling"
+    },
+    "title": {
+      "translate": "advancements.extra_advancements.exploration.shangri_la.title",
+      "fallback": "Shangri-La"
+    },
+    "description": {
+      "translate": "advancements.extra_advancements.exploration.shangri_la.description",
+      "fallback": "Enter a village in a cherry grove"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "village_in_cherry_grove": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:cherry_grove",
+                "structures": "#minecraft:village"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

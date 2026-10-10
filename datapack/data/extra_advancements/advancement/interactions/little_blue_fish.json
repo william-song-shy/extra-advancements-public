@@ -12,7 +12,8 @@
       "translate": "advancements.extra_advancements.interactions.little_blue_fish.description",
       "fallback": "Look at a blue Axolotl through a Spyglass"
     },
-    "frame": "challenge"
+    "frame": "challenge",
+    "hidden": true
   },
   "criteria": {
     "look_at_blue_axolotl": {
