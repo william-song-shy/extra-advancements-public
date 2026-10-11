@@ -15,8 +15,48 @@
     "frame": "task"
   },
   "criteria": {
-    "manual": {
-      "trigger": "minecraft:impossible"
+    "wear_dyed_trimmed_leather_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": "minecraft:leather_helmet",
+                  "predicates": {
+                    "minecraft:dyed_color": {},
+                    "minecraft:trim": {}
+                  }
+                },
+                "chest": {
+                  "items": "minecraft:leather_chestplate",
+                  "predicates": {
+                    "minecraft:dyed_color": {},
+                    "minecraft:trim": {}
+                  }
+                },
+                "legs": {
+                  "items": "minecraft:leather_leggings",
+                  "predicates": {
+                    "minecraft:dyed_color": {},
+                    "minecraft:trim": {}
+                  }
+                },
+                "feet": {
+                  "items": "minecraft:leather_boots",
+                  "predicates": {
+                    "minecraft:dyed_color": {},
+                    "minecraft:trim": {}
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
     }
   },
   "rewards": {
